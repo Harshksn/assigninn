@@ -1,0 +1,42 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.announcement-bar1{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    color: rgba(255, 255, 255, 0.916);
+    background-color: rgba(0, 0, 0, 0.935);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+/* .icon-cart{
+    display: flex;
+    align-items: center; 
+     justify-content: space-between; 
+    padding : 0px;
+}
+
+.icon-cart span{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    font-weight: 200;
+    background-color: red; 
+    justify-content: center;
+    align-items: center; 
+    color: #fff;
+    position: absolute;
+} */
+
+.icon-cart > span{
+    font-weight: 500;
+}
